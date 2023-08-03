@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1>Ejercicio de clase </h1>
+    <section>
+        <h2>Que es CSS y para que sirve</h2>
+        <p>CSS es un lenguaje que se utiliza para definir el formato de los elementos del HTML</p>
+    </section>
+    <section>
+        <h2>Las maneras de enlazar css a mi archivo html</h2>
+        <p>Hay 3 formas de enlazar css al html:</p>
+        <div>
+            <p><u>Referenciando a otro archivo</u></p>
+            <p>Es decir crear otro archivo css y referenciarlo en head: "link rel="stylesheet" href="./styles.css" </p>
+        </div>
+        <div>
+            <p><u>Inline</u></p>
+            <p>Se agrega en la misma linea el atributo style a la etiqueta que puede ser h1, p</p>
+        </div>
+        <div>
+            <p><u>Con style dentro del archivo html</u></p>
+            <p>Agregando la etiqueta style en el head del documento, y dentro de este se agregaran las reglas de css
+            </p>
+        </div>
+    </section>
+    <section>
+        <h2>Ejemplos de los 4 pilares de CSS</h2>
+        <h3>Selectores</h3>
+        <p>Es la manera en la que seleccionamos los elementos html para aplicar el diseño, como se le aplico en h1, h2 y
+            h3. </p>
+        <h3>Herencia</h3>
+        <p>Es la regla que indica que algunos elementos heredaran las caracteristicas de los antecesore mediante la
+            palabra clave inherit. </p>
+        <h3>Este es un ejemplo <a href="a">Esta propiedad fue heredada</a></h3>
+        <h3>Cascada</h3>
+        <p>Siempre y cuando se tenga la misma especificidad, la ultima regla prevalecera ante las demas. Asi se le
+            cambio el color al h1</p>
+        <h3>Especificidad</h3>
+        <p>Es el valor numerico que se le asigna a los secctores para determinar una jerarquia, por ej: etiqueta tiene
+            valor 1, clase valor 1, ID 100, inline tiene valor 1000 e !important tiene valor infinito.</p>
+        <p>Con !important se cambio el color de letra de este texto que antes era gris. </p>
+    </section>
+</body>
+
+</html>
